@@ -16,6 +16,7 @@ The goal was to extract meaningful patterns from real-world e-commerce data and 
 - **Selenium** – for automated web scraping
 - **Pandas** – for data manipulation and cleaning
 - **Matplotlib** – for data visualization
+- **Excel / Power Query / Pivot Tables** – for building the dashboard
 - **Jupyter Notebook** – for interactive analysis
 
 
@@ -45,7 +46,29 @@ Key plots generated:
 - 💰 Deal Price vs Rating  
 - 💹 Original vs Deal Prices by Brand  
 - 📉 Discount Distribution (Bar Chart)  
+- 📦 Most Common Storage Variants (Pie Chart)
+
+### 📊 Excel Dashboard
+- 📉 Discount Distribution by Brand  
 - 📦 Most Common Storage Variants (Pie Chart)  
+- 📍 Interactive filters by Brand and Price  
+- 🔍 Slicers and KPIs for quick analysis  
+- 📌 Dashboard view designed for decision-makers
+
+## 🔐 Excel File Privacy
+
+The Excel workbook contains both:
+- `📊 Dashboard (visible)`
+- `🔒 Raw data (hidden and protected)`
+
+To protect scraped data:
+- Only the **dashboard sheet is visible**
+- Raw data sheets are **hidden and sheet-protected**
+- If access to raw data is required, you may request it directly.
+
+📁 Included Files:
+- `Mobile_analysis_dashboard.xlsx` – Interactive dashboard (protected)
+- `Mobile_analysis_dashboard.pdf` – View-only version
 
 
 ## ✅ Key Learnings
@@ -53,9 +76,9 @@ Key plots generated:
 - Automated real-time data extraction using Selenium  
 - Structured raw HTML data into a clean DataFrame  
 - Performed data validation and transformation  
-- Visualized data trends to uncover business insights  
-- Created storytelling visuals for stakeholder communication  
-
+- Built visualizations in both **Python** and **Excel**  
+- Applied Power Query, PivotTables, and Excel security features  
+- Communicated insights visually for business use  
 
 ## 📬 Feedback & Connect
 
